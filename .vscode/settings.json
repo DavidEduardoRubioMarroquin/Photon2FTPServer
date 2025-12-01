@@ -1,10 +1,26 @@
 {
     "extensions.ignoreRecommendations": true,
     "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "C_Cpp.intelliSenseEngine": "default",
     "files.associations": {
-        "*.ino": "cpp"
+        "*.ino": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "text_encoding": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp"
     },
     "particle.targetDevice": "blue_bug",
     "particle.targetPlatform": "p2",
-    "particle.firmwareVersion": "5.9.0"
+    "particle.firmwareVersion": "6.3.4"
 }
